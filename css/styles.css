@@ -1,0 +1,36 @@
+body {
+    background-color: #53795f;
+}
+h1 {
+   color: #142714; 
+}
+
+p {
+    color: #0e260e;
+}
+
+h2 {
+    font-size: 20px
+}
+h2 {
+    color: #aecebc
+}
+
+.box-bg {
+    background-color: #2e583c;
+}
+
+/* unvisited link */
+a:link {
+  color: aliceblue;
+}
+
+/* visited link */
+a:visited {
+  color: #012101;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e892f7;
+}
