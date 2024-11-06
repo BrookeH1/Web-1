@@ -1,0 +1,49 @@
+body {
+    background-color: #7fa77f
+}
+
+.type1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 900;
+    letter-spacing: 15px;
+    line-height: 5;
+    font-size: x-large;
+}
+
+.type2 {
+    font-family: "Bona Nova SC", serif;
+}
+
+.type3 {
+    font-family: "Anton SC", sans-serif;
+}
+
+.type4 {
+    font-family: "Playfair Display", serif;
+}
+
+.type5 {
+    font-family: "Oswald", sans-serif;
+}
+
+.type6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.type7 {
+    font-family: "Hubot Sans", sans-serif;
+}
+
+.type8 {
+    font-family: "Itim", cursive;
+    text-align: center
+}
+
+.type9 {
+    font-family: "Roboto", serif;
+    text-align: center
+}
+
+.type10 {
+    font-family: "Playfair Display", serif;
+}
