@@ -1,0 +1,86 @@
+.background-colour {
+    background-color: pink;
+    width: 600px;
+    padding-top: .5px;
+    padding-bottom: .5px;
+}
+
+.green-box {
+    background-color: darkseagreen;
+    height: 200px;
+    margin: 25px;
+}
+
+.light-blue-box {
+    background-color: skyblue;
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    margin: 25px;
+}
+
+.beige-box {
+    background-color: beige;
+    height: 150px;
+    width: 150px;
+    float: right;
+    text-align: center;
+    margin: 25px;
+}
+
+.cyan-box {
+    background-color: #82f5f5;
+    height: 375px;
+    margin: 25px;
+}
+
+.off-white-box {
+    background-color: #fdfdfd;
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    margin: 25px;
+}
+
+.black-box {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin: 25px;
+    color: white;
+    text-align: center;
+}
+
+.orange-box {
+    clear: both;
+    background-color: #eabc65;
+    height: 150px;
+    text-align: center;
+    margin: 25px;
+}
+
+.dark-pink-box {
+    background-color: #ec7777;
+    margin: 25px;
+}
+
+.purple-box {
+    background-color: #bca4ef;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    margin: 25px;
+    float: left;
+}
+
+.paragraph-1 {
+    color: white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
