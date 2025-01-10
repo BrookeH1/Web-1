@@ -1,0 +1,83 @@
+.yellow-background {
+    background-color: #f1ffa4;
+    width: 715px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.navigation {
+    text-align: right;
+    margin: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color: #44719f;
+}
+
+/* visited link */
+a:visited {
+    color: #611289;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ba495f;
+}
+
+h1 {
+    color: #ba495f;
+    text-align: center;
+}
+
+.p1 {
+    color: #611289;
+    text-align: center;
+}
+
+.p2 {
+    color: white;
+    text-align: center;
+    margin: 70px 25px;
+}
+
+.p3 {
+    color: white;
+    text-align: center;
+    margin: 70px 25px;
+}
+
+.movie-photo-1 {
+    height: 250px;
+    margin: 25px;
+}
+
+.movie-photo-2 {
+    height: 250px;
+    margin: 25px;
+}
+
+.blue-box-one {
+    background-color: #44719f;
+    height: 250px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin: 25px;
+}
+
+.blue-box-two {
+    background-color: #44719f;
+    height: 250px;
+    width: 250px;
+    float: right;
+    text-align: center;
+    margin: 25px;
+}
+
+.green-container {
+    background-color: #91b462;
+    width: 665px;
+    height: 300px;
+    margin: 25px auto;
+}
