@@ -67,10 +67,23 @@ header {
     font-weight: 500;
     font-size: 24px;
 }
-
 .arrivals {
+    align-content: center;
+}
+
+.new-arrivals {
     display: flex;
     padding: 26px 43px 15px 43px;
+    align-content: center;
+}
+
+.view-all {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    align-content: center;
 }
 
 .mens-items {
@@ -116,13 +129,19 @@ header {
     height: 315px;
 }
 
+
+
 .black-friday {
-    background-image: url(../assets/banners/sale-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     height: 372px;
     width: 1000px;
     object-fit: contain;
     object-position: center;
+    padding: 100px 17px;
 }
+
 
 .button-2 {
     padding: 8px 24px;
@@ -132,6 +151,7 @@ header {
     font-family: "inter", serif;
     font-weight: 500;
     font-size: 24px;
+    width: 135px;
 }
 
 footer {
@@ -140,10 +160,17 @@ footer {
     display: flex;
 }
 
+.foot-logo {
+    padding: 85px 37px;
+}
+
 .footer-text {
-    display: flex;
     color: white;
     text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    width: 100%; 
 }
 
 .about-zenin {
@@ -159,7 +186,7 @@ footer {
 }
 
 .social-links {
-    padding: 21px 21px 0 21px;
+    padding: 21px 28px 0 21px;
 }
 
 .footer-par {
