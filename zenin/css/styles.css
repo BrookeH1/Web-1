@@ -73,7 +73,7 @@ header {
 
 .new-arrivals {
     display: flex;
-    padding: 26px 43px 15px 43px;
+    padding: 26px 43px 0 43px;
     align-content: center;
 }
 
@@ -129,8 +129,6 @@ header {
     height: 315px;
 }
 
-
-
 .black-friday {
     display: flex;
     flex-direction: column;
@@ -149,7 +147,7 @@ header {
     text-decoration: none;
     color: #ffc900;
     font-family: "inter", serif;
-    font-weight: 500;
+    font-weight: 508;
     font-size: 24px;
     width: 135px;
 }
