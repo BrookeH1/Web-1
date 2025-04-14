@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f1da;
+    height: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a{
+   text-decoration: none; 
+    color: #e9657d;
+    font-family: "Inknut Antiqua", serif;
+    font-size: clamp(16px, 2vw, 36px);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9657d;
+    padding: 125px 125px 125px 125px;
+}
+
+.hero .inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1164.41px;
+    padding: 125px 0 125px 0
+}
+
+.hero img {
+    width: 100%;
+    max-width: 500.41px;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    width: 100%;
+    max-width: 549px;
+    padding-left: 95px;
+    color: #f9f1da;
+}
+
+p {
+   font-family: "Inknut Antiqua", serif;
+    font-size 24px;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-size: 96px;
+}
+
+.my-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f1da;
+    height: 130px;
+}
+
+h2 {
+    color: #3fa3c7;
+    font-family: "Lilita One", sans-serif;
+    font-size: 96px;
+}
+
+h3 {
+    font-family: "Lilita One", sans-serif;
+    font-size: 48px;
+}
+
+.posters-title {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #f9f1da;
+    height: 130px;
+    color: #e9657d;
+}
+/* posters section */
+
+.posters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 38px 48px;
+    background-color: #e9657d;
+}
+
+.posters .inner-container-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    width: 100%;
+    max-width: 1125px;
+}
+
+.posters {
+    display: flex;
+    gap: 200px;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 790px;
+    max-width: 463px;
+}
+
+.spread-title {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #f9f1da;
+    height: 130px;
+    color: #f3c45f;
+}
+
+.double-page {
+    display: flex;
+    justify-content: center;
+    padding: 38px 48px;
+    background-color: #f3c45f;
+}
+
+.double-page .inner-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 898px;
+    gap: 15px;
+}
+
+.works-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9f1da;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 1115px) {
+    header {
+        padding: 0 23px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .nav a{
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 0 125px;
+    }
+
+    .hero .inner-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .hero img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero .text {
+        padding-left: 0;
+        padding-top:70px;
+        
+    }
+
+    .hero img {
+        max-width: none;
+    }
+
+    .posters .inner-container-1 {
+        flex-direction: column;
+        row-gap: 31px;
+        align-items: center;
+    }
+}
